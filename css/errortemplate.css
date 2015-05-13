@@ -1,0 +1,26 @@
+#main_error
+{ width:600px; margin:0px auto; padding: 7% 0px;}
+
+    .maintitle_error
+    { width:500px; height:161px; margin:0px auto;}
+
+        .maintitle_error a
+        { width:500px; height:161px; display:block; background:url(../images/logo.png) no-repeat;}
+
+            .maintitle_error a span
+            { display:none;}
+    
+    #maincontent_error
+    { width:580px; padding:10px; margin-top:10%; text-align:center; background:#ffffff; color:#666; -webkit-border-radius:6px; -moz-border-radius:6px; border-radius:6px;}
+    
+        #maincontent_error h2
+        { font-size:32px; color:#cc0000;}
+        
+        #maincontent_error p
+        { font-size:14px;}
+        
+            #maincontent_error p a
+            { color:#cc0000;}
+            
+        #maincontent_error p.msg_error
+        { padding:30px 0px;}

@@ -1,0 +1,152 @@
+*
+{ margin:0; padding:0; font-family:Arial, Helvetica, sans-serif}
+
+h2
+{ font-size:22px; text-align:center; color:#999; padding-bottom:10px; }
+
+	h2 a
+	{ background-color:#cc0000; color:#ffffff; padding:6px; font-size:18px;}
+	
+		h2 a:hover
+		{ text-decoration:none;}
+	
+#content
+{ width:956px; padding:10px; margin:0 auto; border:2px solid #cc0000; background:#fff;}
+
+.parcial_body
+{ width:312px; float:left;}
+	
+	.parcial_ads
+	{ width:300px; height:250px; margin:0px auto;}
+	
+	.pesquisa
+	{ width:290px; height:30px; padding:10px; border:1px solid #ddd; background:url(../images/bg_pesquisa.png) repeat-x; font-size:12px; color:#999; position:relative;}
+	
+		.pesquisanome_label
+		{ width:82px; height:30px; line-height:30px; padding-right:6px; font-weight:bold; float:left; letter-spacing:-0.01em;}
+		
+		.query
+		{ width:158px; height:28px; padding:0px 4px; border:1px solid #ddd; color:#cc0000; font-size:16px; font-weight:bold; float:left;}
+		
+		.btn_search
+		{ width:30px; height:30px; float:left; margin-left:4px; border-width:1px; border-color:#ddd; background:url(../images/btn_search.png) #fff no-repeat center;}
+		
+		.box_resultsearch
+		{ width:170px; padding:6px; padding-top:2px; min-height:120px; max-height:300px; border:1px solid #ddd; overflow-y:scroll; position:absolute; top:42px; left:98px; background-color:#ffffff; display:none; box-shadow: #999 3px 3px 8px;}
+			
+			.box_resultsearch .item
+			{ display:block; border:1px solid #ccc; padding:6px; color:#999; text-decoration:none; background-color:#efefef; margin-top:4px;}
+				
+				.box_resultsearch .item em, .box_resultsearch .item strong, .box_resultsearch .item span
+				{ display:block}
+				
+				.box_resultsearch .item span
+				{ display:none;}
+			
+				.box_resultsearch .item em
+				{ font-size:11px;}
+				
+				.box_resultsearch :hover.item
+				{ background-color:#eaeaea}
+		
+	.timer
+	{ width:312px; height:16px; margin:10px 0px 10px; font-size:10px; text-align:center;}
+	
+		.timer strong
+		{ display:block; color:#ccc; line-height:16px; text-transform:uppercase;}
+		
+			.timer strong a
+			{ color:#ccc;}
+			
+			.timer strong a:hover
+			{ text-decoration:none; text-transform:uppercase;}
+
+	.parcial
+	{ width:290px; padding:10px; background:url(../images/bg_parciais.png) repeat-x #fff; border-color:#ddd; border-width:1px; border-style:solid;}
+	
+		.salvar_body
+		{ width:160px; height:14px; margin:0px auto; font-size:12px; color:#999;}
+		
+			.salvartime_check
+			{ float:left;}
+			
+			.salvartime_label
+			{ float:left; margin-left:4px; line-height:14px;}	
+		
+		.font1
+		{ font-size:22px; line-height:24px; color:#999; display:block;}
+			
+		.font2
+		{ color:#ccc; font-size:14px;}
+		
+		.font3
+		{ color:#999; font-size:14px;}
+		
+		.font4
+		{ color:#ccc; font-size:12px;}
+				
+		.box_escudo
+		{ width:128px; height:128px; margin:15px auto; text-align:center; border-color:#fff; border-width:6px; border-style:solid; box-shadow: #999 0px 0px 15px; background:url(../images/bg_escudo.png) repeat-x;}
+			
+			.escudo
+			{ width:128px; height:128px; background: url(../images/blank_slug.png) center no-repeat;}
+		
+		.nome_time
+		{ height:68px; text-align:center; text-transform:uppercase;}
+		
+			.nome_time em
+			{ display:block; height:12px; margin-top:4px; margin-bottom:6px;}
+		
+		.time_dados
+		{ width:144px; height:54px; text-align:center; padding:10px 0; float:left;}
+			
+		.players
+		{ width:290px;}
+
+			.players ul
+			{ list-style:none; padding-top:16px; }
+
+				.players ul li
+				{  width:278px; padding:2px 6px; display:block;}
+				
+					.time_player
+					{ width:22px; height:22px; margin-right:6px; float:left; margin-top:2px;}
+						
+					.posicao_player
+					{ width:16px; height:25px; line-height:25px; margin-right:6px; float:left; text-align:center;}
+					
+					.nome_player
+					{ width:182px; height:25px; line-height:25px; margin-right:6px; float:left;}
+					
+					.pont_player
+					{ width:40px; height:25px; line-height:25px; text-align:right; float:left;}				
+					
+				.borderbt
+				{ border-bottom:solid; border-color:#ddd; border-width:1px;}
+					
+				.noborderbt
+				{border:none;}
+		
+			.floatright
+			{ float:right;}
+				
+			.floatleft
+			{ float:left;}
+				
+			.mrgleft
+			{ margin:0 0 0 10px;}
+				
+			.red
+			{ color:#cc0000 !important;}
+				
+			.blue
+			{ color:#0066ff !important;}
+			
+		.credits
+		{ height:28px; line-height:28px; margin-top:2px; background:#555; text-align:center; color:#ccc; font-size:11px; font-weight:bold;}		
+		
+			.credits a
+			{ color:#ccc}		
+			
+				.credits a:hover
+				{ text-decoration:none;}			

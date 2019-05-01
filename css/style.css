@@ -272,7 +272,7 @@ h3{ height:30px; line-height:30px; font-size:15px; color:#fff; background:#444; 
 				.credits a:hover
 				{ text-decoration:none;}
 			
-.slug-22x22{ width:22px; height:22px; float:left; background:url(../images/slugs22x22_2017.png) no-repeat;}
+.slug-22x22{ width:22px; height:22px; float:left; background:url(../images/slugs22x22_2019.png) no-repeat;}
 .slug-22x22atletico-mg{ background-position:0px 0px;}
 .slug-22x22atletico-pr{ background-position:-22px 0px;}
 .slug-22x22bahia{ background-position:-44px 0px;}
@@ -302,8 +302,11 @@ h3{ height:30px; line-height:30px; font-size:15px; color:#fff; background:#444; 
 .slug-22x22atletico-go{ background-position:-572px 0px;}
 .slug-22x22ceara{ background-position:-594px 0px;}
 .slug-22x22parana{ background-position:-616px 0px;}
+.slug-22x22athletico-pr{ background-position:-638px 0px;}
+.slug-22x22csa{ background-position:-660px 0px;}
+.slug-22x22fortaleza{ background-position:-682px 0px;}
 
-.slug-32x32{ width:32px; height:32px; float:left; background:url(../images/slugs32x32_2017.png) no-repeat;}
+.slug-32x32{ width:32px; height:32px; float:left; background:url(../images/slugs32x32_2019.png) no-repeat;}
 .slug-32x32atletico-mg{ background-position:0px 0px;}
 .slug-32x32atletico-pr{ background-position:-32px 0px;}
 .slug-32x32bahia{ background-position:-64px 0px;}
@@ -333,9 +336,11 @@ h3{ height:30px; line-height:30px; font-size:15px; color:#fff; background:#444; 
 .slug-32x32atletico-go{ background-position:-832px 0px;}
 .slug-32x32ceara{ background-position:-864px 0px;}
 .slug-32x32parana{ background-position:-896px 0px;}
+.slug-32x32athletico-pr{ background-position:-928px 0px;}
+.slug-32x32csa{ background-position:-960px 0px;}
+.slug-32x32fortaleza{ background-position:-992px 0px;}
 
-
-.slug-65x65{ width:65px; height:65px; float:left; background:url(../images/slugs65x65_2017.png) no-repeat;}
+.slug-65x65{ width:65px; height:65px; float:left; background:url(../images/slugs65x65_2019.png) no-repeat;}
 .slug-65x65atletico-mg{ background-position:0px 0px;}
 .slug-65x65atletico-pr{ background-position:-65px 0px;}
 .slug-65x65bahia{ background-position:-130px 0px;}
@@ -365,3 +370,6 @@ h3{ height:30px; line-height:30px; font-size:15px; color:#fff; background:#444; 
 .slug-65x65atletico-go{ background-position:-1690px 0px;}
 .slug-65x65ceara{ background-position:-1755px 0px;}
 .slug-65x65parana{ background-position:-1820px 0px;}
+.slug-65x65athletico-pr{ background-position:-1885px 0px;}
+.slug-65x65csa{ background-position:-1950px 0px;}
+.slug-65x65fortaleza{ background-position:-2015px 0px;}
